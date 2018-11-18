@@ -18,6 +18,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
+
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -35,6 +37,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 
 		</dependency>
+
+
 
 		<!--引入其他的Servlet容器-->
 		<!--<dependency>
@@ -66,6 +70,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 
